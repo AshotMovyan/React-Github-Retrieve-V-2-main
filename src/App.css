@@ -1,0 +1,61 @@
+.main {
+    margin-top: 50px;
+}
+.mainInfoBlock {
+    width: 65%;
+}
+.userInfoCard {
+    padding: 15px;
+    width: 33%;
+}
+.InfoBlockText {
+    margin-top: 25px;
+    font-size: 18px;
+}
+.navBlock {
+    width: 100%;
+    padding: 25px;
+}
+span {
+    cursor: pointer;
+}
+.reposBlock {
+    margin-top: 20px;
+}
+.reposItem {
+    margin: 10px;
+}
+.rounded-circle {
+    width: 100%;
+}
+.table {
+    border-collapse: collapse;
+}
+
+@media only screen and (max-width: 1024px) {
+    .infoBlock {
+      flex-direction: column;
+    }
+    .userInfoCard {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        font-size: 15px;
+    }
+    .rounded-circle {
+        width: 70%;
+    }
+    .InfoBlockText {
+        font-size: 15px;
+    }
+    .InfoBlockText button {
+        font-size: 13px;
+    }
+    .mainInfoBlock {
+        width: 100%;
+    }
+    .navBlock {
+        margin-top: 20px;
+        text-align: center;
+    }
+  }
